@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 28rem;
+    height: 42rem;
+    margin: 1rem auto;
+    border-radius: 30px;
+}
+
+.result {
+    margin-bottom: 2rem;
+    height: 9rem;
+}
+
+.result h1 {
+    text-align: right;
+    
+    margin-right: 1rem;
+}
+
+.buton {
+    background-color: #333333;
+    border-radius: 50rem;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.gributon {
+    background-color: #A5A5A5;
+    color: black;
+}
+
+.buton0 {
+    width: 12rem;
+}
+
+.butonlar:hover {
+    opacity: 0.8;
+}
+
+.turuncubuton {
+    background-color: #F29E4B;
+}
